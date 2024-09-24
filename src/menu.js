@@ -1,6 +1,13 @@
+import vanillaImage from "./images/vanilla.jpg";
+import oreoImage from "./images/oreo.jpg";
+import blueberryImage from "./images/blueberry.jpg";
+import unicornImage from "./images/unicorn.jpg";
+import caramelImage from "./images/caramel.jpg";
+
+
 export function menuContent(){
     const vanilla = document.createElement("IMG");
-    vanilla.setAttribute("src", "./images/vanilla.jpg");
+    vanilla.setAttribute("src", vanillaImage);
     vanilla.setAttribute("width", "250");
     vanilla.setAttribute("height", "250");
     vanilla.setAttribute("alt", "vanilla cupcake");
@@ -11,7 +18,7 @@ vanillaDiv.appendChild(vanilla);
 vanillaDiv.appendChild(item1);
 
 const oreo = document.createElement("IMG");
-oreo.setAttribute("src", "./images/oreo.jpg");
+oreo.setAttribute("src", oreoImage);
 oreo.setAttribute("width", "250");
 oreo.setAttribute("height", "250");
 oreo.setAttribute("alt", "oreo cupcake");
@@ -22,7 +29,7 @@ oreoDiv.appendChild(oreo);
 oreoDiv.appendChild(item2);
 
 const blueberry = document.createElement("IMG");
-blueberry.setAttribute("src", "./images/blueberry.jpg");
+blueberry.setAttribute("src", blueberryImage);
 blueberry.setAttribute("width", "250");
 blueberry.setAttribute("height", "250");
 blueberry.setAttribute("alt", "blueberry cupcake");
@@ -33,7 +40,7 @@ blueberryDiv.appendChild(blueberry);
 blueberryDiv.appendChild(item3);
 
 const unicorn = document.createElement("IMG");
-unicorn.setAttribute("src", "./images/unicorn.jpg");
+unicorn.setAttribute("src", unicornImage);
 unicorn.setAttribute("width", "250");
 unicorn.setAttribute("height", "250");
 unicorn.setAttribute("alt", "unicorn cupcake");
@@ -45,7 +52,7 @@ unicornDiv.appendChild(item4);
 
 
 const caramel = document.createElement("IMG");
-caramel.setAttribute("src", "./images/caramel.jpg");
+caramel.setAttribute("src", caramelImage);
 caramel.setAttribute("width", "250");
 caramel.setAttribute("height", "250");
 caramel.setAttribute("alt", "caramel cupcake");

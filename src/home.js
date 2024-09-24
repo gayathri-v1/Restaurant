@@ -1,18 +1,17 @@
+import bakingImage from "./images/baking.jpg";
+
 export function homeContent(){
 
   const x = document.createElement("IMG");
-  x.setAttribute("src", "./images/baking.jpg");
+  x.setAttribute("src", bakingImage);
   x.setAttribute("width", "400");
   x.setAttribute("height", "500");
   x.setAttribute("alt", "baking cupcake");
 
   const div1= document.createElement('div');
   div1.appendChild(x);
-//   content1.appendChild(x);
 
-
-
-const heading= document.createElement("h1");
+ const heading= document.createElement("h1");
 heading.textContent="MAX'S HOMEMADE CUPCAKES"
 
 //some intro
